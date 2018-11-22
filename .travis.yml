@@ -2,7 +2,7 @@ language: php
 
 # Versi PHP
 php:
-  - 7.0
+  - 7.2
 
 # Branch yang digunakan
 branches:
