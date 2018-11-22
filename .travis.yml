@@ -1,5 +1,3 @@
-sudo: required
-dist: trusty
 language: php
 
 # Versi PHP
@@ -20,3 +18,4 @@ before_script:
 
 # Main Execution (Build)
 script:
+  - .vendor/bin/phpunit
